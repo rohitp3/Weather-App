@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg1">There are no cities to display.</string>
+    <string name="msg2">Search the city from the search box and save.</string>
+    <string name="savedcity">Saved Cities</string>
+    <string name="EnterCityDetails">Enter City Details</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Set">Set</string>
+    <string name="title_activity_city">CityActivity</string>
+    <string name="Savecity">Save city</string>
+    <string name="setcurrent">Set as current city</string>
+    <string name="settings">Settings</string>
+    <string name="choseTemp">Choose Temperature Unit</string>
+    <string name="done">Done</string>
+
+</resources>

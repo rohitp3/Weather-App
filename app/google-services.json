@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "566964495971",
+    "firebase_url": "https://wapp-e67cc.firebaseio.com",
+    "project_id": "wapp-e67cc",
+    "storage_bucket": "wapp-e67cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566964495971:android:8a093d74234cc318",
+        "android_client_info": {
+          "package_name": "com.etuloser.padma.rohit.homework08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566964495971-jtgd9e562n4m69aabg87tgno48a9j3dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrkF5Ee-ZqhdHus1Ok0ZOyreyTy5DKBUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

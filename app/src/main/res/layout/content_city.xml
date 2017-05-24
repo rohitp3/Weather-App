@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.etuloser.padma.rohit.homework08.CityActivity"
+    tools:showIn="@layout/activity_city">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily forecast for"
+            android:id="@+id/titleid"
+            android:textSize="20dp"
+            android:textColor="#33ccff"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#33ccff"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/Headc"
+            android:textSize="18dp"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/forecast"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tempc"
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Condition"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Day"
+                android:textSize="18dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Night"
+                android:textSize="18dp"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                android:gravity="center"
+                android:id="@+id/dayimg"
+
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher"
+                android:gravity="center"
+                android:id="@+id/nightimg"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Day"
+                android:id="@+id/ctxtday"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Night"
+                android:gravity="center"
+                android:id="@+id/ctxtnight"
+                />
+
+
+        </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Click here for more details"
+    android:onClick="text1click"
+    android:textSize="20dp"
+    android:id="@+id/texturl1"
+    android:textColor="#1f5ec4"
+    android:gravity="center"
+    android:layout_gravity="center"
+    />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:layout_margin="5dp"
+    android:layout_marginTop="15dp"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvforecast"
+        />
+</LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for Extended forecast"
+        android:onClick="text2click"
+        android:id="@+id/texturl2"
+        android:textSize="20dp"
+        android:textColor="#1f5ec4"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterCityDetails"
+        android:textSize="20dp"
+        android:textColor="#33ccff"
+
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#33ccff"
+    android:layout_marginTop="5dp"
+android:layout_marginBottom="15dp"
+    />
+    <EditText
+        android:id="@+id/edxacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your City"/>
+
+    <EditText
+        android:id="@+id/edxacountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Country"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/Cancel"
+            android:layout_margin="5dp"
+            android:id="@+id/btnacancel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/Set"
+            android:layout_margin="5dp"
+            android:id="@+id/btnaset"
+            />
+    </LinearLayout>
+
+</LinearLayout>
